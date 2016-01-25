@@ -1,0 +1,33 @@
+{
+  "name": "daum-tvpot",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "tvpot library for Node.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/daum-tvpot.git"
+  },
+  "keywords": [
+    "tvpot",
+    "video",
+    "daum",
+    "keyword",
+    "search"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-nodemon": "^0.4.0",
+    "matchdep": "^1.0.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0"
+  }
+}
